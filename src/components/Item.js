@@ -2,7 +2,7 @@ import React from 'react'
 
 const Item = ( {Product_title,url,description,price,rating}) => {
     return (
-          <div className="container-fluid bg-dark ">
+          <div className="container-fluid bg-dark" > 
             <div className="row">
               <div className="col-md-10 mx-auto d-flex justify-content-center   m-3 ">
                 <div className="card align-items-center "  style={{ width: "20rem"   }}>
